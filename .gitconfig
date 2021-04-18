@@ -1,0 +1,35 @@
+[user]
+	name = Rodrigo Araya
+	email = rodrigo.araya@gmail.com
+[color]
+	ui = auto
+[core]
+	autocrlf = input
+	safecrlf = true
+[branch]
+	autosetuprebase = always
+[push]
+	default = tracking
+[merge]
+	tool = vimdiff
+[alias]
+	ci = commit
+	co = checkout
+	cp = cherry-pick
+	dc = diff --cached
+	l1 = log --format='%C(yellow)%h%C(reset) -%C(red bold)%d%C(reset) %s %C(green)(%cr) %C(cyan)<%an>%C(reset)'
+	l2 = log --format='%C(yellow)commit %H%C(reset)%C(red bold)%d%C(reset)%nAuthor: %C(cyan)%an <%ae>%C(reset)%nDate:   %C(green)%cd%C(reset)%n%n%w(,4,4)%s%n' --date=local
+	l3 = log --format='%C(yellow)commit %H%C(reset)%C(red bold)%d%C(reset)%nAuthor: %C(cyan)%an <%ae>%C(reset)%nDate:   %C(green)%cd%C(reset)%n%n%w(,4,4)%B' --date=local
+	lg = log --format='%C(yellow)%h%C(reset) -%C(red bold)%d%C(reset) %s %C(green)(%cr) %C(cyan)<%an>%C(reset)' --graph
+	lm = log --format='%C(yellow)%h%C(reset) -%C(red bold)%d%C(reset) %s %C(green)(%cr)%C(reset)' --author=raraya
+	pr = pull-request
+	rb = rebase
+	ri = rebase -i
+	rw = rewind
+	sh = show HEAD
+	st = status
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+
