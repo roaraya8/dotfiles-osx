@@ -1,4 +1,5 @@
 *.swp
+*.iml
 
 .CFUserTextEncoding
 .cargo/
@@ -21,6 +22,7 @@
 .z
 .zcompdump-*
 .zprofile
+.zshenv
 .zsh-update
 .zsh_history
 .zsh_sessions/
@@ -44,3 +46,16 @@ workspace/
 Dropbox/
 experiments/
 
+#work
+.anyconnect
+.aws
+.bash_history
+.bash_hotpads_mac
+.bash_profile
+.cisco/
+.db_profiles/
+.localized
+.node-gyp/
+.parallel/
+docker/
+n/
