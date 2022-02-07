@@ -1,15 +1,19 @@
 *.swp
 
 .CFUserTextEncoding
+.cargo/
 .config
 .cshrc
+.cups/
 .docker
+.dropbox/
 .lesshst
 .m2/
 .node_repl_history
 .npm/
 .profile
 .python_history
+.rustup/
 .shrc
 .ssh
 .vim/
@@ -37,3 +41,6 @@ Public/
 
 dev/
 workspace/
+Dropbox/
+experiments/
+
